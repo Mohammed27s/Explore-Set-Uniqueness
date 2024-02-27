@@ -1,0 +1,26 @@
+
+//Explore Set Uniqueness
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Explore_Set {
+
+    public static void main(String[] args){
+
+        Set<Integer>  setUniqueness = new HashSet<>();
+
+        setUniqueness.add(2);
+        setUniqueness.add(4);
+        setUniqueness.add(4);
+        setUniqueness.add(5);
+        setUniqueness.add(6);
+
+
+        System.out.println("The elements of Set : "+setUniqueness);
+
+
+
+
+    }
+}
